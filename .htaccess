@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    Options -Multiviews
+    RewriteEngine On
+    RewriteRule ^$ pages/ [L]
+    RewriteRule (.*) pages/$1 [L]
+</IfModule>

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    Options -Multiviews
+    RewriteEngine On
+    RewriteBase /projects/alumni_web/pages
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+</IfModule>
+    #ErrorDocument(400)  400.php
+    #ErrorDocument(401)  401.php
+    #ErrorDocument(402)  402.php
+    #ErrorDocument(403)  403.php
+    #ErrorDocument(404)  404.php

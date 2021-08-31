@@ -7,7 +7,7 @@
 	$pg2 = '';
 	
 	///Page definitions
-	define('BASE_URL', 'http://'.$_SERVER['SERVER_NAME'].'/projects/alumni_web/');
+	define('BASE_URL', 'https://olaitan6201.github.io/alumni_mgt_system/');
 	define('APP_TITLE', 'Alumni Management');
 	define('APP_LOGO', 'Alumni Management');
 	define('PAGE_COLOR', 'primary');
